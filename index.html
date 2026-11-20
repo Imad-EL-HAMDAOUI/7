@@ -26,12 +26,48 @@
           </p>
         
     
-           <div>
+           <div >
              <button class=" bg-[#ff7138] p-[10px] rounded-[10px] text-white "> contact us </button>
            </div>
         
       </div>
     </section>
-    
+    <section class="  flex justify-center items-center bg-[#fafafa] py-[3rem] " >
+       <div class=" flex flex-col items-center w-[100vw]">
+         <div class="flex justify-center items-center flex-col py-[20px] ">
+            <p class="text-[#ff9563]">get in touch</p>
+            <h1 class="font-bold text-3xl">plan your next trip</h1>
+            <p class="text-[#a2a6b9] ">have question? send us a message</p>
+         </div>
+        <div class=" bg-white flex flex-col w-[50%] p-[20px] rounded-[10px] shadow-[0_20px_20px_rgba(0,0,0,0.15)]  " >
+           <form class="flex flex-col " >
+           <label for="name" class=" block text-sm font-semibold ">Full Name</label>
+          <input
+            id="name" name="name" type="text" placeholder="Enter your name" required
+            class="w-full rounded-lg border border-line px-4 py-3 text-sm placeholder:text-muted focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20"
+          />
+        
+
+        
+          <label for="email" class="mb-2 block text-sm font-semibold">Email Address</label>
+          <input
+            id="email" name="email" type="email" placeholder="Enter your email" required
+            class="w-full rounded-lg border border-line px-4 py-3 text-sm  focus:ring-brand/20"
+          />
+        
+
+        
+          <label for="message" class="mb-2 block text-sm font-semibold">Your Message</label>
+          <textarea
+            id="message" name="message" rows="5" placeholder="Write your message..." required
+            class="w-full resize-y rounded-lg border border-line px-4 py-3 text-sm  focus:ring-brand/20"
+          ></textarea>
+          <div class="py-[10px]">
+            <button class="bg-[#ff7138] w-full py-[10px] rounded-[10px]">send message</button>
+          </div>
+        </form>
+        </div>
+       </div>
+    </section>
   </body>
 </html>
